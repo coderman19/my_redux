@@ -1,0 +1,74 @@
+body {
+  background-color:darkslategray;
+}
+
+ul, li, a {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+li {
+  width: 100%;
+  padding: 5px;
+  background-color: darkolivegreen;
+  width: 40%;
+}
+
+input, label {
+  padding: 5px;
+}
+
+input:checked + span {
+  text-decoration: line-through;
+}
+
+.label {
+  display: flex;
+  gap: 10px;
+}
+
+.todoInput {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+.todoText {
+  padding: 5px;
+}
+
+.symbol {
+ font-size: 18px;
+ cursor: pointer;
+ color: brown;
+}
+
+.container {
+ width: 900px;
+ margin: 0 auto;
+ background-color:cornflowerblue;
+ height: 100vh;
+}
+
+.card {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.card-image {
+  width: 200px;
+  height: 100px;
+}
+
+
+.card-text {
+  width: 200px;
+  height: 100px;
+}
+
+.heart {
+  font-size: 20px;
+  color: red;
+  cursor: pointer;
+}
